@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Title of the page</title>
+  </head>
+  <body>
+    <h1 id="top">HTML5</h1>
+    <h1>Level 1 Heading</h1>
+    <h2>Level 2 Heading</h2>
+    <h3>Level 3 Heading</h3>
+    <h4>Level 4 Heading</h4>
+    <h5>Level 5 Heading</h5>
+    <h6>Level 6 Heading</h6>
+
+    <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>This a <b>paragraph</b>. The word "paragraph" is in bold</p>
+
+    <p>This a <i>paragraph</i>. The word "paragraph" is in italics</p>
+
+    <p>E = mc<sup>2</sup></p>
+
+    <p>2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub>O</p>
+
+    <p>In this paragraph,     white spaces are ignored</p>
+
+    <p>This is the start of paragraph tag.<br />This is the end of the paragraph tag.</p>
+
+    <p>The line below is caused by using hr tag</p>
+    <hr />
+
+    <p>If you want to show something of strong importance show using strong tag. The element show same effect as that of bold tag.<br />For example: Do <strong>not</strong> go there.</p>
+
+    <p>I <em>usually</em> do not use emphasis tag, but still noting down as you might see in codes. The element show same effect as that of italic tag.</p>
+
+    <p>There are two tag to indicate the element contain a quote.<br /></p>
+    <blockquote cite="https://quotecatalog.com/quote/stephen-mcfeely-i-know-what-it-7OGjWE7">
+      I Know What It's Like To Lose. To Feel So Desperately That You're Right, Yet To Fail Nonetheless. It’s Frightening.
+    </blockquote>
+    <q cite="https://mygeekwisdom.com/2016/04/30/its-not-who-i-am-underneath-but-what-i-do-that-defines-me/#:~:text=The%20story%20behind%20the%20quote,was%20directed%20by%20Christopher%20Nolan.&text=The%20quote%20actually%20comes%20up%20twice%20in%20the%20film.">
+      It’s not who I am underneath, but what I do that defines me.
+    </q>
+    <p>The q tag puts the quote inside "" and displays it whereas the blockquote tag does not do the same. Instead it intends the quote towards the right.</p>
+
+    <p><abbr title="Doctor">Dr.</abbr> Jones, who’s currently undertaking research on <acronym title="Deoxyribonucleic acid">DNA</acronym>, can’t attend the <acronym title="World Health Organization">WHO</acronym> conference being held in the US in <abbr title="October">Oct</abbr> 2016.</p>
+
+    <p>A cite tag is udes to reference a piece of work like a movie, book, etc.<br />For Example: <cite>Titanic</cite> is one of the biggest hit in the late 19th Century.</p>
+
+    <p><dfn>Program</dfn>: A program is a sequence of instructions in a programming language that a computer can execute or interpret.</p>
+
+    <p>Author: Tony Stark</p>
+    <address class="">
+      Address: 10880 Malibu Point, 90265.
+    </address>
+
+    <p>Original Price: <s>$1499</s><br />New Price: $749</p>
+    <p>The amount the organization asked was too <del>low</del> <ins>exhorbitant</ins></p>
+
+    <hr />
+
+    <h1>Lists</h1>
+    <h2>Ordered List</h2>
+    <ol type="i">
+      <li>Ordered List Item 1</li>
+      <li>Ordered List Item 2</li>
+      <li>Ordered List Item 3</li>
+      <li>Ordered List Item 4</li>
+    </ol>
+    <h2>Unordered List</h2>
+    <ul type="square">
+      <li>UnOrdered List Item 1</li>
+      <ul>
+        <li>Nested Unordered List Item 1</li>
+        <li>Nested Unordered List Item 2</li>
+        <li>Nested Unordered List Item 3</li>
+        <li>Nested Unordered List Item 4</li>
+      </ul>
+      <li>UnOrdered List Item 2</li>
+      <li>UnOrdered List Item 3</li>
+      <li>UnOrdered List Item 4</li>
+    </ul>
+    <h2>Definition List</h2>
+    <dl class="">
+      <dt>Database Management System</dt>
+      <dd>It is a software designed to store, retrieve, define, and manage data in a database.</dd>
+      <dt>Compiler</dt>
+      <dd>It is a special program that processes statements written in a particular programming language and turns them into machine language or "code" that a computer's processor uses.</dd>
+      <dt>Interpreter</dt>
+      <dd>It is a computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program. </dd>
+    </dl>
+
+    <hr />
+
+    <h1>Links</h1>
+    <h2>Link are made using <b>a</b> tag.</h2>
+    <a href="#">This sentence is a link which leads to nowhere.</a>
+    <h2>Link from current page to other site</h2>
+    <a href="https://css-tricks.com/">CSS Tricks</a>
+    <h2>Link from current page to other page on the same site</h2>
+    <a href="page1.html">Page 1</a>
+    <h2>Link to mail</h2>
+    <a href="mailto:complexcoder@gmail.com">Email us</a>
+    <h2>Opening a link in new tab of the same browser</h2>
+    <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>
+    <h2>Link to a specific part of the current webpage</h2>
+    <a href="#top">Go to top of the page</a>
+    <h2>Link to a specific part of another webpage</h2>
+    <a href="page1.html#para5">Go to Paragraph 5 of Page 1</a>
+
+    <hr />
+
+    <h1>Images</h1>
+    <h2>Add Images using img tag with no height and width defined</h2>
+    <img src="images/ironman-vs-captainamerica.jpeg" alt="Here is a pic of Iron Man dueling Captain America" title="Iron man vs Captain America" />
+    <h2>Add Images using img tag with height and width defined</h2>
+    <img src="images/ironman-vs-captainamerica.jpeg" alt="Here is a pic of Iron Man dueling Captain America" title="Iron man vs Captain America" height="500" width="250" />
+    <h2>Aligning Images with Paragraph</h2>
+    <p><img src="images/ironman-vs-captainamerica.jpeg" alt="Here is a pic of Iron Man dueling Captain America" title="Iron man vs Captain America" align="left" height="200" width="100" />Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore <br />eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id ,<br />est laborum.</p>
+    <br />
+    <br />
+    <h2>figure and figcaption tag</h2>
+    <figure>
+      <img src="images/ironman-vs-captainamerica.jpeg" alt="Here is a pic of Iron Man dueling Captain America" title="Iron man vs Captain America">
+      <figcaption>Both Ironman and Captain america are heroes who respected each other</figcaption>
+    </figure>
+
+    <hr />
+
+    <h1>Tables</h1>
+    <h2>Basic Table Structure</h2>
+    <table>
+      <tr>
+        <td>(00)</td>
+        <td>(01)</td>
+        <td>(02)</td>
+      </tr>
+      <tr>
+        <td>(10)</td>
+        <td>(11)</td>
+        <td>(12)</td>
+      </tr>
+      <tr>
+        <td>(20)</td>
+        <td>(21)</td>
+        <td>(22)</td>
+      </tr>
+    </table>
+    <h2>Adding Table Head in Table Structure</h2>
+    <table>
+      <tr>
+        <th scope="col">Product</th>
+        <th scope="col">Original Price/kg</th>
+        <th scope="col">New Price/kg</th>
+      </tr>
+      <tr>
+        <th scope="row">Banana</th>
+        <td>$10</td>
+        <td>$15</td>
+      </tr>
+      <tr>
+        <th scope="row">Mango</th>
+        <td>$25</td>
+        <td>$50</td>
+      </tr>
+    </table>
+    <h2>Spanning Columns and rows in Table Structure</h2>
+    <table>
+      <tr>
+        <th scope="col">Time\Day</th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+      </tr>
+      <tr>
+        <th scope="row">08:30 - 09:30</th>
+        <td>NLP</td>
+        <td>PM</td>
+        <td>HMI</td>
+        <td>HMI</td>
+        <td rowspan="6">Project Day</td>
+      </tr>
+      <tr>
+        <th scope="row">09:30 - 10:30</th>
+        <td>HMI</td>
+        <td>NLP</td>
+        <td>PM</td>
+        <td>DC</td>
+      </tr>
+      <tr>
+        <th scope="row">10:30 - 11:30</th>
+        <td colspan="3">DC</td>
+        <td>PM</td>
+      </tr>
+      <tr>
+        <th scope="row">13:00 - 14:00</th>
+        <td rowspan="2">HMI [LAB]</td>
+        <td>HMI</td>
+        <td colpan="2">NLP</td>
+      </tr>
+      <tr>
+        <th scope="row">14:00 - 15:00</th>
+        <td rowspan="2">DC [LAB]</td>
+        <td rowspan="2">NLP [LAB]</td>
+        <td rowspan="2">CCL [LAB]</td>
+      </tr>
+      <tr>
+        <th scope="row">15:00 - 16:00</th>
+        <td></td>
+      </tr>
+    </table>
+    <h2>Adding Border, width, cellspacing in Table</h2>
+    <table border="solid" width="600" cellspacing="5">
+      <tr>
+        <th scope="col">Time\Day</th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+      </tr>
+      <tr>
+        <th scope="row">08:30 - 09:30</th>
+        <td>NLP</td>
+        <td>PM</td>
+        <td>HMI</td>
+        <td>HMI</td>
+        <td rowspan="6">Project Day</td>
+      </tr>
+      <tr>
+        <th scope="row">09:30 - 10:30</th>
+        <td>HMI</td>
+        <td>NLP</td>
+        <td>PM</td>
+        <td>DC</td>
+      </tr>
+      <tr>
+        <th scope="row">10:30 - 11:30</th>
+        <td colspan="3">DC</td>
+        <td>PM</td>
+      </tr>
+      <tr>
+        <th scope="row">13:00 - 14:00</th>
+        <td rowspan="2">HMI [LAB]</td>
+        <td>HMI</td>
+        <td colspan="2">NLP</td>
+      </tr>
+      <tr>
+        <th scope="row">14:00 - 15:00</th>
+        <td rowspan="2">DC [LAB]</td>
+        <td rowspan="2">NLP [LAB]</td>
+        <td rowspan="2">CCL [LAB]</td>
+      </tr>
+      <tr>
+        <th scope="row">15:00 - 16:00</th>
+        <td></td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>Forms</h1>
+    <p>Forms are used to collect information from visitors. There are different types of information you might want to collect from a visitor such as text, selecting choices from a given list (dropdown), etc. For this purpose there are various form controls.</p>
+    <h2>Form Structure:</h2>
+    <form class="" action="page2.html" method="get">
+      <p>Inside this form tag, all form controls will appear.</p>
+      <input type="text" name="username" value="">
+      <input type="submit" name="" value="Go to Page 2">
+    </form>
+    <h2>Fieldset and Legend</h2>
+    <p>Fieldset is used to group form controls related to a particular form. Legend is a caption used to give a name which should state what this form is related to.</p>
+    <fieldset>
+      <legend>Legend</legend>
+      <form class="" action="page2.html" method="get">
+        <input type="submit" name="" value="Go to Page 2">
+      </form>
+    </fieldset>
+    <h2>Different Form Controls</h2>
+    <ol>
+      <li><b>Input , type="text"</b></li>
+      <input type="text" name="username" value="" maxlength="10" placeholder="Username" />
+      <li><b>Input, type="password"</b></li>
+      <input type="password" name="password" value="" maxlength="10" placeholder="Password" />
+      <li><b>Text Area</b></li>
+      <textarea name="comment" rows="3" cols="50" placeholder="Enter your comment"></textarea>
+      <li><b>Input , type="radio"</b></li>
+      <p>The HTML understands that which radio button is related to which grp by seeing the name attribute. so it allows user to select only one radio button of all radio buttons belonging to the same value of the name attribute. selected attribute can be used to select a radio button in the start when the page loads</p>
+      <p>
+        <input type="radio" name="choice" value="yes" /> Yes
+      </p>
+      <p>
+        <input type="radio" name="choice" value="no" /> No
+      </p>
+      <li><b>Input, type="checkbox"</b></li>
+      <p>
+        <input type="checkbox" name="passed" value="1"> Sem 1
+      </p>
+      <p>
+        <input type="checkbox" name="passed" value="2"> Sem 2
+      </p>
+      <p>
+        <input type="checkbox" name="passed" value="3"> Sem 3
+      </p>
+      <p>
+        <input type="checkbox" name="passed" value="4"> Sem 4
+      </p>
+      <li><b>Select control (Single Select Dropdown Box)</b></li>
+      <select class="" name="age">
+        <option value="18">16</option>
+        <option value="18">17</option>
+        <option value="18" selected>18</option>
+        <option value="18">19</option>
+        <option value="18">20</option>
+      </select>
+      <li><b>Select control (Multi Select Dropdown Box)</b></li>
+      <select class="" name="preference" multiple="multiple" size="3">
+        <option value="chocolate">Chocolate</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="butterscotch">Butterscotch</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="caramel">Caramel</option>
+      </select>
+      <li><b>Input, type="file"</b></li>
+      <input type="file" name="image" />
+      <li><b>Input, type="submit"</b></li>
+      <input type="submit" name="upload" value="Upload">
+      <li><b>Button</b></li>
+      <p>This is used to give us more control such as adding an png file right along side a text. For Example: +Add</p>
+      <button>Button</button>
+      <li><b>Label</b></li>
+      <label for="firstName">First Name: <input type="text" id="firstName" name="firstName" value="" placeholder="First Name"> </label>
+      <li><b>Input, type="date"</b></li>
+      <label for="departureDate">Departure Date: <input id="departureDate" type="date" name="depart" /></label>
+      <li><b>Input, type="email"</b></li>
+      <input type="email" name="emailId" value="" placeholder="Type your email" size="30">
+      <li><b>Input, type="url"</b></li>
+      <input type="url" name="" value="" placeholder="Enter your LinkedIn profile link" size="30">
+      <li><b>Input, type="search"</b></li>
+      <input type="search" name="search" value="" placeholder="Christiano Ronaldo">
+    </ol>
+    <h3>A simple form Example:</h3>
+    <form class="" action="page3.html" method="get">
+      <fieldset>
+        <legend>Log In Form</legend>
+        <label for="emailId">Email Id: <input id="emailId" type="email" name="emailId" value="" placeholder="abc@gmail.com" /></label>
+        <br />
+        <label for="password">Password: <input id="password" type="password" name="password" /></label>
+        <br />
+        <label for="phoneNumber">Phone Number: <input id="phoneNumber" type="text" name="phoneNumber" value="+91 " /></label>
+        <br />
+        <label for="birthDate">Birth Date: <input id="birthDate" type="date" name="birthDate" /></label>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+      </fieldset>
+
+      <hr />
+
+      <h1>Extra Markups to know about</h1>
+      <ol>
+        <li><b>Doctypes</b></li>
+        <p>Every page should be started with a Doctype dec;aration to tell a browser which version of HTML the page is using. For HTML5, we use &lt!DOCTYPE&gt</p>
+        <li><b>Comments in HTML</b></li>
+        <p>For Comments use, &lt!-- with some comments inside it --&gt</p>
+        <li><b>ID attribute</b></li>
+        <p id="info-id">Every HTML element can carry an id attribute. No two HTML on the same page can have same id attribute. Value of an ID attribute should never start with a digit and it should only contain a letter and an underscore.</p>
+        <li><b>CLASS attribute</b></li>
+        <p class="normal-paragraph">Every HTML element can carry a class attribute. Class of different element can have same or different values.</p>
+        <li><b>DIV element</b></li>
+        <div class="">
+          <p>DIV element allows us to group a set of elements together in one block-level box.<br />For Example:</p>
+          <p>There are two p tags in this div element.</p>
+        </div>
+        <li><b>SPAN element</b></li>
+        <p>This is used to differentiate some text from its surrounding text or to give some special CSS effects to inline text.</p>
+        <li><b>IFRAME element</b></li>
+        <p>It is a window cut into the web page to show another page like maps, etc.</p>
+        <iframe src="page1.html" width="500" height="250"></iframe>
+      </ol>
+
+      <hr />
+
+      <h1>Video and Audio</h1>
+      <ul>
+        <li><b>Video</b></li>
+        <video src="videos/super-drag-attack.mp4" poster="images/poster-image.jpeg" width="450" height="250" controls preload="auto">
+          NEW SUPER DRAGON ATTACK UNSTOPPABLE!!! BEST TH14 Attack Strategy _ Clash of Clans
+        </video>
+        <!-- <video poster="images/poster-image.jpeg" width="450" height="250" controls preload="auto">
+          <source src="videos/super-drag-attack.mp4" type="video/">
+          NEW SUPER DRAGON ATTACK UNSTOPPABLE!!! BEST TH14 Attack Strategy _ Clash of Clans
+        </video> -->
+        <li><b>Audio</b></li>
+        <audio src="audio/Life.mp3" controls preload="auto">
+          Life - Neffex
+        </audio>
+        <!-- <audio controls preload="auto">
+          <source src="audio/Life.mp3">
+          Life - Neffex
+        </audio> -->
+      </ul>
+    </form>
+  </body>
+</html>
